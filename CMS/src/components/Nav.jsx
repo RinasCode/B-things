@@ -18,7 +18,6 @@ export default function Nav() {
             <div className="navbar-end">
             </div>
             <div className="navbar-end">
-                <Link to="/add" className="btn btn-accent btn-sm mx-1">Add Product</Link>
                 <a onClick={handleLogout} className="btn btn-error btn-sm mx-1">
                     Logout
                 </a>
