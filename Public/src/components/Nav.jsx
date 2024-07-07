@@ -1,12 +1,9 @@
 import { Link } from "react-router-dom";
-import { useNavigate } from 'react-router-dom'
+
 
 export default function Nav() {
-    const navigate = useNavigate()
-    function handleLogout() {
-        localStorage.clear()
-        navigate('/login')
-    }
+
+    
 
     return (<>
         <nav className="navbar sticky top-0 z-10 p-3 bg-gray-100 shadow">
